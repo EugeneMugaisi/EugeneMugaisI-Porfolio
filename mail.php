@@ -12,7 +12,7 @@ $recipient = "mugaisieugene4@gmail.com";
 mail($recipient, $subject, $message, $mailheader)
 or die("Error!");
 
-// echo"Message Sent";
+
 echo'
 
 <!DOCTYPE html>
@@ -61,10 +61,7 @@ echo'
 </body>
 </html>
 
-
-
-
-'
+';
 
 
 ?>
